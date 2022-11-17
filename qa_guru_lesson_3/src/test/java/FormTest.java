@@ -30,7 +30,7 @@ public class FormTest {
         $("#firstName").setValue(userName);
         $("#lastName").setValue(lastName);
         $("#userEmail").setValue(email);
-        $("#gender-radio-1").doubleClick();
+        $("#genterWrapper").$(new ByText("Male")).click();
         $("#userNumber").setValue(mobile);
         $("#dateOfBirthInput").click();
         $(".react-datepicker__month-select").selectOption("July");
